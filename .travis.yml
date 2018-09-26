@@ -1,7 +1,10 @@
 language: node_js
 node_js:
   - "9"
-cache: yarn
+cache:
+  bundler: true
+  directories:
+    - public/static
 script:
   - gatsby build
 deploy:
