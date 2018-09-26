@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `secrets/.env.${process.env.NODE_ENV}`
+});
+
 module.exports = {
   siteMetadata: {
     siteUrl: `https://trafficdesign.pl`,
