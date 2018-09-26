@@ -1,0 +1,29 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/pl/ficzery/2018-biennale/offline-plugin-app-shell-fallback/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/component---node-modules-gatsby-plugin-offline-app-shell-js-754c3adca028aadb6ea1.js>; rel=preload; as=script
+/pl/ficzery/2018-biennale/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/1-f3f767f06a04b75f3ef2.js>; rel=preload; as=script
+/pl/ficzery/2018-biennale/Layout/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/1-f3f767f06a04b75f3ef2.js>; rel=preload; as=script
+/pl/ficzery/2018-biennale/program/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/1-f3f767f06a04b75f3ef2.js>; rel=preload; as=script
+/pl/ficzery/2018-biennale/realizacje/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/1-f3f767f06a04b75f3ef2.js>; rel=preload; as=script
+/pl/ficzery/2018-biennale/SEOWrapper/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/2-341d9c3b0645a27f574a.js>; rel=preload; as=script
+/pl/ficzery/2018-biennale/stowarzyszenie/
+  Link: </pl/ficzery/2018-biennale/webpack-runtime-167fae45101155cdc042.js>; rel=preload; as=script
+  Link: </pl/ficzery/2018-biennale/1-f3f767f06a04b75f3ef2.js>; rel=preload; as=script
