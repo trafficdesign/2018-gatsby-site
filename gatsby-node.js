@@ -101,13 +101,13 @@ exports.createPages = async ({ graphql, actions }) => {
       tpl: NewsTpl,
       excludes: "newsschema"
     },
-    {
-      id: projects,
-      gql: "allPrismicProjects",
-      locale: ["projekty", "projects"],
-      tpl: ProjectsTpl,
-      excludes: "projectsschema"
-    },
+    // {
+    //   id: projects,
+    //   gql: "allPrismicProjects",
+    //   locale: ["projekty", "projects"],
+    //   tpl: ProjectsTpl,
+    //   excludes: "projectsschema"
+    // },
     // {
     //   id: works,
     //   gql: "allPrismicWorks",
