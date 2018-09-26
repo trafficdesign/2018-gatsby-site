@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /404/
+
+Disallow: /en/404
+Disallow: /en/articles
+
+Disallow: /pl/404
+Disallow: /pl/artykuly

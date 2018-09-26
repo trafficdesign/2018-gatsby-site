@@ -1,0 +1,193 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M64 192h896v128h-896v-128z",
+          "M64 448h896v128h-896v-128z",
+          "M64 704h896v128h-896v-128z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "menu",
+          "list",
+          "options",
+          "lines",
+          "hamburger"
+        ],
+        "defaultCode": 60529,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "order": 2,
+        "prevSize": 16,
+        "ligatures": "menu7, list5",
+        "name": "menu",
+        "id": 881,
+        "code": 60529
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 881
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM384 832h-128v-448h128v448zM320 320c-35.4 0-64-28.6-64-64s28.6-64 64-64c35.4 0 64 28.6 64 64s-28.6 64-64 64zM832 832h-128v-256c0-35.4-28.6-64-64-64s-64 28.6-64 64v256h-128v-448h128v79.4c26.4-36.2 66.8-79.4 112-79.4 79.6 0 144 71.6 144 160v288z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "linkedin",
+          "brand",
+          "social"
+        ],
+        "defaultCode": 61224,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "order": 6,
+        "prevSize": 16,
+        "ligatures": "linkedin, brand64",
+        "name": "linkedin",
+        "id": 1576,
+        "code": 61224
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 1576
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h416v-448h-128v-128h128v-64c0-105.8 86.2-192 192-192h128v128h-128c-35.2 0-64 28.8-64 64v64h192l-32 128h-160v448h288c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "facebook",
+          "brand",
+          "social"
+        ],
+        "defaultCode": 61168,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "order": 5,
+        "prevSize": 16,
+        "ligatures": "facebook2, brand11",
+        "name": "facebook",
+        "id": 3,
+        "code": 61168
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 3
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM704 160c0-17.6 14.4-32 32-32h128c17.6 0 32 14.4 32 32v128c0 17.6-14.4 32-32 32h-128c-17.6 0-32-14.4-32-32v-128zM512 320c106 0 192 86 192 192s-86 192-192 192c-106 0-192-86-192-192s86-192 192-192zM896 864v0c0 17.6-14.4 32-32 32h-704c-17.6 0-32-14.4-32-32v0-416h70.4c-4.2 20.6-6.4 42-6.4 64 0 176.8 143.2 320 320 320s320-143.2 320-320c0-22-2.2-43.4-6.4-64h70.4v416z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "instagram",
+          "brand",
+          "social"
+        ],
+        "defaultCode": 61169,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "order": 4,
+        "prevSize": 16,
+        "ligatures": "instagram, brand12",
+        "name": "instagram",
+        "id": 4,
+        "code": 61169
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 4
+    },
+    {
+      "icon": {
+        "paths": [
+          "M628.976 533.009h-227.738c-14.985 0-27.136-11.315-27.136-25.276v-214.374c0-13.943 12.151-25.259 27.136-25.259h227.738c14.985 0 27.136 11.315 27.136 25.259v214.374c0 13.961-12.151 25.276-27.136 25.276zM91.956 26.846v965.308c0 22.255 28.672 33.638 45.926 18.227l228.335-203.827c5.052-4.523 11.793-7.031 18.79-7.031h526.063c14.985 0 27.136-11.315 27.136-25.276v-747.401c0-13.943-12.151-25.259-27.136-25.259h-791.979c-14.985 0-27.136 11.315-27.136 25.259z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "trafficmarker"
+        ],
+        "grid": 16
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 2,
+        "id": 5,
+        "name": "traffic",
+        "prevSize": 16,
+        "code": 59648
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 5
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "iconfont"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "iconfont",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "noie8": true,
+      "ie7": false,
+      "includeMetadata": true,
+      "showSelector": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 50,
+    "gridSize": 16,
+    "showGrid": true
+  }
+}
