@@ -47,18 +47,18 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  // const pages = await graphql(`
-  //   {
-  //     allPrismicPages {
-  //       edges {
-  //         node {
-  //           uid
-  //           lang
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
+  const pages = await graphql(`
+    {
+      allPrismicPages {
+        edges {
+          node {
+            uid
+            lang
+          }
+        }
+      }
+    }
+  `);
   const projects = await graphql(`
     {
       allPrismicProjects {
@@ -71,18 +71,18 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  // const works = await graphql(`
-  //   {
-  //     allPrismicWorks {
-  //       edges {
-  //         node {
-  //           uid
-  //           lang
-  //         }
-  //       }
-  //     }
-  //   }
-  // `);
+  const works = await graphql(`
+    {
+      allPrismicWorks {
+        edges {
+          node {
+            uid
+            lang
+          }
+        }
+      }
+    }
+  `);
 
   /* CREATE PAGES */
 
@@ -101,20 +101,20 @@ exports.createPages = async ({ graphql, actions }) => {
       tpl: NewsTpl,
       excludes: "newsschema"
     },
-    {
-      id: projects,
-      gql: "allPrismicProjects",
-      locale: ["projekty", "projects"],
-      tpl: ProjectsTpl,
-      excludes: "projectsschema"
-    },
-    {
-      id: works,
-      gql: "allPrismicWorks",
-      locale: ["realizacje", "works"],
-      tpl: WorksTpl,
-      excludes: "worksschema"
-    },
+    // {
+    //   id: projects,
+    //   gql: "allPrismicProjects",
+    //   locale: ["projekty", "projects"],
+    //   tpl: ProjectsTpl,
+    //   excludes: "projectsschema"
+    // },
+    // {
+    //   id: works,
+    //   gql: "allPrismicWorks",
+    //   locale: ["realizacje", "works"],
+    //   tpl: WorksTpl,
+    //   excludes: "worksschema"
+    // },
     /* Pages are a lil’ different | TODO: create only these by slug in the future */
     {
       id: pages,
