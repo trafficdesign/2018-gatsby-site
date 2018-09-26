@@ -1,5 +1,3 @@
-const config = require("./secrets/config");
-
 module.exports = {
   siteMetadata: {
     siteUrl: `https://trafficdesign.pl`,
@@ -39,8 +37,8 @@ module.exports = {
     {
       resolve: "gatsby-source-prismic",
       options: {
-        repositoryName: config.prismic.repositoryName,
-        accessToken: config.prismic.accessToken,
+        repositoryName: process.env.PRISMICREPO,
+        accessToken: process.env.PRISMICKEY,
         // Set a link resolver function used to process links in your content.
         // Fields with rich text formatting or links to internal content use this
         // function to generate the correct link URL.
