@@ -47,18 +47,18 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  const pages = await graphql(`
-    {
-      allPrismicPages {
-        edges {
-          node {
-            uid
-            lang
-          }
-        }
-      }
-    }
-  `);
+  // const pages = await graphql(`
+  //   {
+  //     allPrismicPages {
+  //       edges {
+  //         node {
+  //           uid
+  //           lang
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
   const projects = await graphql(`
     {
       allPrismicProjects {
@@ -71,18 +71,18 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  const works = await graphql(`
-    {
-      allPrismicWorks {
-        edges {
-          node {
-            uid
-            lang
-          }
-        }
-      }
-    }
-  `);
+  // const works = await graphql(`
+  //   {
+  //     allPrismicWorks {
+  //       edges {
+  //         node {
+  //           uid
+  //           lang
+  //         }
+  //       }
+  //     }
+  //   }
+  // `);
 
   /* CREATE PAGES */
 
