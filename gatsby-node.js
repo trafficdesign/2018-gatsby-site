@@ -108,13 +108,13 @@ exports.createPages = async ({ graphql, actions }) => {
       tpl: ProjectsTpl,
       excludes: "projectsschema"
     },
-    // {
-    //   id: works,
-    //   gql: "allPrismicWorks",
-    //   locale: ["realizacje", "works"],
-    //   tpl: WorksTpl,
-    //   excludes: "worksschema"
-    // },
+    {
+      id: works,
+      gql: "allPrismicWorks",
+      locale: ["realizacje", "works"],
+      tpl: WorksTpl,
+      excludes: "worksschema"
+    },
     /* Pages are a lil’ different | TODO: create only these by slug in the future */
     {
       id: pages,
