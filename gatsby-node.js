@@ -11,10 +11,10 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   // Keep up Travis build
   function keepItUp() {
-    console.log("\n" + "Still working…");
-    setTimeout(keepItUp, 180000);
+    console.log("\nStill working…\n");
+    setTimeout(keepItUp, 300000);
   }
-  setTimeout(keepItUp, 180000);
+  setTimeout(keepItUp, 300000);
 
   const { createPage } = actions;
 
