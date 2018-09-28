@@ -12,9 +12,9 @@ exports.createPages = async ({ graphql, actions }) => {
   // Keep up Travis build
   function keepItUp() {
     console.log("\n" + "Still working…");
-    setTimeout(keepItUp, 10000);
+    setTimeout(keepItUp, 180000);
   }
-  setTimeout(keepItUp, 10000);
+  setTimeout(keepItUp, 180000);
 
   const { createPage } = actions;
 
