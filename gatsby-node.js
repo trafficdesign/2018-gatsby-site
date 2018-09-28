@@ -9,6 +9,13 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 };
 
 exports.createPages = async ({ graphql, actions }) => {
+  // Keep up Travis build
+  function keepItUp() {
+    console.log("\n" + "Still working…");
+    setTimeout(keepItUp, 10000);
+  }
+  setTimeout(keepItUp, 10000);
+
   const { createPage } = actions;
 
   const sanitizeLang = str => (str === "pl" ? "pl" : "en");
