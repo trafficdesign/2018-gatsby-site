@@ -10,8 +10,8 @@
     "babel-plugin-styled-components": "1.7.1",
     "browser-locale": "1.0.3",
     "date-fns": "1.29.0",
-    "gatsby": "2.0.9",
-    "gatsby-cli": "2.4.1",
+    "gatsby": "2.0.11",
+    "gatsby-cli": "2.4.2",
     "gatsby-image": "2.0.10",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-i18n": "0.4.2",
@@ -48,6 +48,7 @@
     "build": "gatsby build",
     "clean": "rm -rf ./.cache && rm -rf ./node_modules && rm -rf ./public && rm -f ./yarn.lock",
     "clear": "rm -rf ./.cache && rm -rf ./public",
+    "deploy": "s3-deploy './public/**' --cwd './public/' --region 'eu-central-1' --bucket 'trafficdesign.pl' --distId CF_DIST_ID --invalidate '/INV_PATH_1 /INV_PATH_2'",
     "start": "./node_modules/gatsby-cli/lib/index.js develop",
     "bundle": "./node_modules/gatsby-cli/lib/index.js build",
     "develop": "gatsby develop"
