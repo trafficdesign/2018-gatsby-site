@@ -17,3 +17,9 @@ deploy:
     secure: $AWSACCESS
   secret_access_key:
     secure: $AWSSECRET
+notifications:
+  email:
+    recipients:
+      - admin@trafficdesign.pl
+    on_success: never
+    on_failure: always
