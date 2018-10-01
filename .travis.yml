@@ -4,6 +4,7 @@ node_js:
 cache:
   bundler: true
   directories:
+    - .cache
     - public/static
 script:
   - gatsby build
