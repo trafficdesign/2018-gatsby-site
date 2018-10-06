@@ -9,6 +9,13 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
 };
 
 exports.createPages = async ({ graphql, actions }) => {
+  // Keep up Travis build
+  function keepItUp() {
+    console.log("\nStill working…\n");
+    setTimeout(keepItUp, 300000);
+  }
+  setTimeout(keepItUp, 300000);
+
   const { createPage } = actions;
 
   const sanitizeLang = str => (str === "pl" ? "pl" : "en");
@@ -101,20 +108,20 @@ exports.createPages = async ({ graphql, actions }) => {
       tpl: NewsTpl,
       excludes: "newsschema"
     },
-    // {
-    //   id: projects,
-    //   gql: "allPrismicProjects",
-    //   locale: ["projekty", "projects"],
-    //   tpl: ProjectsTpl,
-    //   excludes: "projectsschema"
-    // },
-    // {
-    //   id: works,
-    //   gql: "allPrismicWorks",
-    //   locale: ["realizacje", "works"],
-    //   tpl: WorksTpl,
-    //   excludes: "worksschema"
-    // },
+    {
+      id: projects,
+      gql: "allPrismicProjects",
+      locale: ["projekty", "projects"],
+      tpl: ProjectsTpl,
+      excludes: "projectsschema"
+    },
+    {
+      id: works,
+      gql: "allPrismicWorks",
+      locale: ["realizacje", "works"],
+      tpl: WorksTpl,
+      excludes: "worksschema"
+    },
     /* Pages are a lil’ different | TODO: create only these by slug in the future */
     {
       id: pages,
