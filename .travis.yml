@@ -12,7 +12,7 @@ deploy:
   provider: s3
   bucket: $AWSBUCKET
   region: $AWSREGION
-  skip_cleanup: true
+  skip_cleanup: false
   local_dir: public
   access_key_id:
     secure: $AWSACCESS
