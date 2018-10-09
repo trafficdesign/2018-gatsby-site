@@ -18,6 +18,8 @@ deploy:
     secure: $AWSACCESS
   secret_access_key:
     secure: $AWSSECRET
+  on:
+    branch: master
 notifications:
   email:
     recipients:
